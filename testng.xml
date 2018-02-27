@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/asingh/selenium-tests">
+        <classes>
+            <class name="GoldWings.AwardsAud">
+                <methods>
+                    <include name="audioPub"/>
+                </methods>
+            </class>
+            <class name="GoldWings.AwardsPubs">
+                <methods>
+                    <include name="articlePub"/>
+                </methods>
+            </class>
+            <class name="rfpBACE.rfpBACEFormTest">
+                <methods>
+                    <include name="rfpTest"/>
+                </methods>
+            </class>
+            <class name="rfpBACE.rfpWPBFormTest">
+                <methods>
+                    <include name="rfpWPBTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
